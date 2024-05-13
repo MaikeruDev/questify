@@ -17,13 +17,6 @@
 
 TBD
 
-
-The server should start, and you should be able to access the app on `localhost:3000` or the configured port.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/yourusername/questify/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
 - **MaikeruDev** - *Initial work* - [MaikeruDev](https://github.com/MaikeruDev)
