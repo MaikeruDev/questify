@@ -39,9 +39,9 @@ export default function Login() {
                     Password
                   </label>
                   <div className="text-sm">
-                    <a href="#" className="font-semibold text-primary-300 hover:text-primary-200">
+                    <Link to="forgot-password" className="font-semibold text-primary-300 hover:text-primary-200">
                       Forgot password?
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mt-2">

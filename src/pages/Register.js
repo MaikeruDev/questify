@@ -1,9 +1,26 @@
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 
-export default function Login() {
+import Swal from 'sweetalert2/src/sweetalert2.js'
+import withReactContent from 'sweetalert2-react-content'
 
-    var [userData, setUserData] = useState({ username: '', email: '', password: '', passwordconf: ''})
+const MySwal = withReactContent(Swal)  
+
+export default function Login() {
+ 
+    const alert = () => {
+        MySwal.fire({
+            title: <p>Hello World</p>,
+            didOpen: () => {
+              MySwal.showLoading()
+            },
+            customClass: 'alertBorder'
+          }).then(() => {
+            return MySwal.fire(<p>Shorthand works too</p>)
+          })
+    }
+
+    var [userData, setUserData] = useState({ username: '', email: '', password: '', passwordconf: '' })
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -34,6 +51,18 @@ export default function Login() {
     const handleImageSelect = (image) => {
         setSelectedImage(image);
     };
+
+    const getClass = (image) => {
+        if (image === 'sword') {
+          return 'Knight';
+        } else if (image === 'staff') {
+          return 'Mage';
+        } else if (image === 'bow') {
+          return 'Ranger';
+        } else {
+          return 'Select an item.';
+        }
+      };
 
     return (
         <>
@@ -83,18 +112,23 @@ export default function Login() {
                                 {userData.email && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(userData.email) && (
                                     <span className="text-red-500 text-xs">Please enter a valid email address</span>
                                 )}
-
                             </div>
                             <div>
                                 <label for="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
                                 <input value={userData.password} onChange={handleInputChange} type="password" name="password" id="password" className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 dark:bg-white/5 dark:border-0 dark:text-white" placeholder="•••••••••" required="" />
+                                {userData.passwordconf && (userData.password.length < 5) && (
+                                    <span className="text-red-500 text-xs">The password needs to have at least 5 characters.</span>
+                                )}
                             </div>
                             <div>
                                 <label for="passwordconf" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password confirmation</label>
                                 <input value={userData.passwordconf} onChange={handleInputChange} type="password" name="passwordconf" id="passwordconf" className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary-400 sm:text-sm sm:leading-6 dark:bg-white/5 dark:border-0 dark:text-white" placeholder="•••••••••" required="" />
+                                {userData.passwordconf && (userData.password !== userData.passwordconf) && (
+                                    <span className="text-red-500 text-xs">The passwords do not match</span>
+                                )}
                             </div>
                         </div>
-                        <button disabled={userData.username.trim() !== '' && userData.username.trim().length < 3 || userData.email.trim() === '' || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(userData.email) || userData.password.trim() === '' || userData.passwordconf.trim() === ''} onClick={() => next()} className="text-sm font-semibold leading-6 text-gray-900 bg-primary-400 hover:bg-primary-300 rounded-lg px-3 py-1.5 text-center">
+                        <button disabled={(userData.password.length < 5) || (userData.username.trim() !== '' && userData.username.trim().length < 3) || (userData.password !== userData.passwordconf) || userData.email.trim() === '' || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(userData.email) || userData.password.trim() === '' || userData.passwordconf.trim() === ''} onClick={() => next()} className="text-sm font-semibold leading-6 text-gray-900 bg-primary-400 hover:bg-primary-300 rounded-lg px-3 py-1.5 text-center">
                             Next Step
                         </button>
                     </div>
@@ -151,22 +185,21 @@ export default function Login() {
                                             </div>
                                             <div className="mt-6 flex w-full flex-none gap-x-4 border-t border-gray-100/5 px-6 pt-6">
                                                 <dt className="flex-none">
-                                                    <span className="sr-only">Client</span>
-
+                                                    <span className="sr-only">Username</span>
                                                 </dt>
-                                                <dd className="text-sm font-medium leading-6 text-gray-200">MaikeruDev</dd>
+                                                <dd className="text-sm font-medium leading-6 text-gray-200">{userData.username}</dd>
                                             </div>
                                             <div className="mt-4 flex w-full flex-none gap-x-4 px-6">
                                                 <dt className="flex-none">
-                                                    <span className="sr-only">Due date</span>
+                                                    <span className="sr-only">Email</span>
                                                 </dt>
-                                                <dd className="text-sm font-medium leading-6 text-gray-200">michael@prietl.com</dd>
+                                                <dd className="text-sm font-medium leading-6 text-gray-200">{userData.email}</dd>
                                             </div>
                                             <div className="mt-4 flex w-full flex-none gap-x-4 px-6">
                                                 <dt className="flex-none">
-                                                    <span className="sr-only">Status</span>
+                                                    <span className="sr-only">Class</span>
                                                 </dt>
-                                                <dd className="text-sm font-medium leading-6 text-gray-200">Knight</dd>
+                                                <dd className="text-sm font-medium leading-6 text-gray-200">{getClass(selectedImage)}</dd>
                                             </div>
                                         </dl>
                                         <div className="mt-6 border-t border-gray-100/5 px-6 py-6">
@@ -181,7 +214,7 @@ export default function Login() {
                         <button onClick={() => prev()} className="text-sm font-semibold leading-6 text-white border-0 bg-white/5 hover:bg-white/10 mr-2 rounded-lg px-3 py-1.5 text-center">
                             Back
                         </button>
-                        <button onClick={() => next()} className="text-sm font-semibold leading-6 text-gray-900 bg-primary-400 hover:bg-primary-300 rounded-lg px-3 py-1.5 text-center">
+                        <button onClick={() => alert()} className="text-sm font-semibold leading-6 text-gray-900 bg-primary-400 hover:bg-primary-300 rounded-lg px-3 py-1.5 text-center">
                             Finish
                         </button>
                     </div>
