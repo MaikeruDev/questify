@@ -15,13 +15,13 @@ export default function Home() {
                 <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
                 <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                   </li>
                 </ul>
               </div>
@@ -42,13 +42,13 @@ export default function Home() {
                 <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
                 <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                   </li>
                 </ul>
               </div>
@@ -65,13 +65,13 @@ export default function Home() {
                 <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
                 <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                   </li>
                 </ul>
               </div>
@@ -151,13 +151,13 @@ export default function Home() {
                 <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
                 <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                   </li>
                 </ul>
               </div>
@@ -168,7 +168,7 @@ export default function Home() {
                   <tr>
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
-                        <a href="#" class="text-gray-400 text-sm font-medium hover:text-blue-500 ml-2 truncate">Lorem Ipsum</a>
+                        <a href="Home" class="text-gray-400 text-sm font-medium hover:text-blue-500 ml-2 truncate">Lorem Ipsum</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
@@ -182,13 +182,13 @@ export default function Home() {
                         <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600 text-sm w-6 h-6 rounded flex items-center justify-center bg-gray-50"><i class="ri-more-2-fill"></i></button>
                         <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                           <li>
-                            <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                            <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                           </li>
                           <li>
-                            <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                            <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                           </li>
                           <li>
-                            <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                            <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                           </li>
                         </ul>
                       </div>
@@ -197,7 +197,7 @@ export default function Home() {
                   <tr>
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
-                        <a href="#" class="text-gray-400 text-sm font-medium hover:text-blue-500 ml-2 truncate">Lorem Ipsum</a>
+                        <a href="Home" class="text-gray-400 text-sm font-medium hover:text-blue-500 ml-2 truncate">Lorem Ipsum</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
@@ -211,13 +211,13 @@ export default function Home() {
                         <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600 text-sm w-6 h-6 rounded flex items-center justify-center bg-gray-50"><i class="ri-more-2-fill"></i></button>
                         <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                           <li>
-                            <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                            <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                           </li>
                           <li>
-                            <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                            <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                           </li>
                           <li>
-                            <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                            <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                           </li>
                         </ul>
                       </div>
@@ -236,13 +236,13 @@ export default function Home() {
                 <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
                 <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                   </li>
                 </ul>
               </div>
@@ -281,13 +281,13 @@ export default function Home() {
                 <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
                 <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white/5 border border-gray-100 w-full max-w-[140px]">
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
                   </li>
                   <li>
-                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
+                    <a href="Home" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
                   </li>
                 </ul>
               </div>
@@ -306,7 +306,7 @@ export default function Home() {
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
                         <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 rounded object-cover block" />
-                        <a href="#" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
+                        <a href="Home" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
@@ -320,7 +320,7 @@ export default function Home() {
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
                         <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 rounded object-cover block" />
-                        <a href="#" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
+                        <a href="Home" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
@@ -334,7 +334,7 @@ export default function Home() {
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
                         <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 rounded object-cover block" />
-                        <a href="#" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
+                        <a href="Home" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
@@ -348,7 +348,7 @@ export default function Home() {
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
                         <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 rounded object-cover block" />
-                        <a href="#" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
+                        <a href="Home" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
@@ -362,7 +362,7 @@ export default function Home() {
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
                         <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 rounded object-cover block" />
-                        <a href="#" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
+                        <a href="Home" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
@@ -376,7 +376,7 @@ export default function Home() {
                     <td class="py-2 px-4 border-b border-b-gray-50">
                       <div class="flex items-center">
                         <img src="https://placehold.co/32x32" alt="" class="w-8 h-8 rounded object-cover block" />
-                        <a href="#" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
+                        <a href="Home" class="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate">Create landing page</a>
                       </div>
                     </td>
                     <td class="py-2 px-4 border-b border-b-gray-50">
